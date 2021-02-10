@@ -1,0 +1,48 @@
+.navbar-brand {
+    background: rgb(42, 161, 135);
+    padding: 8px;
+}
+
+#landing {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 30px;
+}
+
+.nav-item {
+    padding-left: 10px;
+}
+
+.item {
+    color: black;
+}
+
+.main-head {
+    color: rgb(42, 161, 135);
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#figure {
+    position: relative;
+    float: left;
+}
+
+#image {
+    width: 300px;
+    height: 169px;
+    margin-right: 20px;
+}
+
+#thumbnail {
+    width: 150px;
+    height: 150px;
+}
