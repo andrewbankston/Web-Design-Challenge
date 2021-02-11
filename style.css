@@ -76,3 +76,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
+
+#data-table {
+    margin-top: 50px;
+    width: 80%;
