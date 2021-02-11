@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Unit 11 Homework - Weather Summary</title>
+    <title>Unit 11 Homework - Wind Speed</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -34,7 +34,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-7">
-          <h1 class="main-head">Summary: Latitude vs. X</h1>
+          <h1 class="main-head">Wind Speed</h1>
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-3">
@@ -43,15 +43,13 @@
       </div>
       <div class="row">
         <div class="col-md-7">
-          <div id="figure"><img id="image" src ="Fig1.png"></div>
-          <p>The purpose of this project was to analyze how weather changes as you get
-            closer to the equator. To accomplish this analysis, we first pulled data from
-            the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of
-            the weather vs. latitude. Factors we looked at included: temperature, cloudiness,
-            wind speed, and humidity. This site provides the source data and visualizations
-            created as part of the analysis, as well as explanations and descriptions of any
-            trends and correlations witnessed.</p>
+          <div id="vis-fig"><img id="vis-image" src ="Fig4.png"></div>
+          <p>The Northern Hemisphere data contains higher wind speeds
+            than the Southern Hemisphere. This is most likely due to
+            the respective seasons currently in place in the two hemispheres.
+            Winds tend to be stronger in the winter due to the uneven warming
+            of the earth. Since the Northern Hemisphere is currently in winter,
+            the wind speeds are higher there than in the Southern Hemisphere.</p>
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-1" id="thumbnails">
@@ -68,7 +66,7 @@
             <a class="thumbnail-link" href="#"><img id="thumbnail" src="Fig2.png" alt="City Latitude vs Humidity"></a>
           </div>
           <div class="thumbnail">
-            <a class="thumbnail-link" href="#"><img id="thumbnail" src="Fig4.png" alt="City Latitude vs Wind Speed"></a>
+            <a class="thumbnail-link" href="#"><img id="thumbnail-select" src="Fig4.png" alt="City Latitude vs Wind Speed"></a>
           </div>
         </div>
       </div>

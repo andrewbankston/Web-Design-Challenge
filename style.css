@@ -28,7 +28,7 @@
     font-weight: 600;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #figure {
@@ -42,7 +42,19 @@
     margin-right: 20px;
 }
 
+#vis-image {
+    width: 600px;
+    height: 400px;
+}
+
 #thumbnail {
     width: 150px;
     height: 150px;
+}
+
+#thumbnail-select {
+    border-color: rgb(42, 161, 135);
+    border-style: solid;
+    width: 150px;
+    height: 150px
 }
