@@ -23,6 +23,10 @@
     color: black;
 }
 
+.dropdown-menu {
+    padding-left: 10px;
+}
+
 .main-head {
     color: rgb(42, 161, 135);
     font-weight: 600;
@@ -88,5 +92,5 @@
 }
 
 @media (max-width: 480px) {
-    
+
 }
