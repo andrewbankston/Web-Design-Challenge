@@ -86,3 +86,7 @@
 .data-header {
     margin-left: 15%;
 }
+
+@media (max-width: 480px) {
+    
+}
