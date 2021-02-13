@@ -61,7 +61,8 @@
     border-color: rgb(42, 161, 135);
     border-style: solid;
     width: 150px;
-    height: 150px
+    height: 150px;
+    margin-bottom: 20px;
 }
 
 #thumbnail-text {
